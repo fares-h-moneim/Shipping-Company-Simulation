@@ -2,9 +2,9 @@
 #define _LINKEDLIST
 
 #include "Node.h"
-
+#include "List ADT.h"
 template <typename T>
-class LinkedList
+class LinkedList:public listADT<T>
 {
 private:
 	Node<T>* Head;	//Pointer to the head of the list
