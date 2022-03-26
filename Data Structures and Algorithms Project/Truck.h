@@ -2,6 +2,6 @@
 
 class Truck {
 	int MoveTime; //
-	//test test
+	//Fares test
 
 };
