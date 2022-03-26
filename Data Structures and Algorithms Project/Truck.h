@@ -8,10 +8,11 @@ class Truck {
 	int speed;
 	int J; //Number of Journies Before Checkup
 	int CheckUpDuration;
+	int TruckCapacity;
 	
 public:
 
-	Truck(int T, int s, int J, int Duration);
+	Truck(int T, int s, int J, int Duration, int C);
 
 	void SetType(int T);
 	int GetType() const;
@@ -24,5 +25,11 @@ public:
 
 	void SetDuration(int Dur);
 	int GetDuration() const;
+	
+	void SetCapacity(int C);
+	int GetCapacity() const;
+	
+	void SetDI(int Distance, int sumunload, int time);
+	int GetDI() const;
 
 };
