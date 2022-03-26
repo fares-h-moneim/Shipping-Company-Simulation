@@ -1,5 +1,6 @@
 #pragma once
 
 class Truck {
-	int MoveTime; //
+	int MoveTime;
+	// yehia edit
 };
